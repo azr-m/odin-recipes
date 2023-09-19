@@ -1,3 +1,10 @@
 body {
     background-color: rgb(206, 231, 255);
 }
+
+#index-header {
+    color: rgb(25, 25, 65);
+    font-size: 40px;
+    font-family: Tahoma, Arial, sans-serif;
+    text-align: center;
+}
