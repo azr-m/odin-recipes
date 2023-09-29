@@ -56,3 +56,15 @@ ol {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
+
+#furikake-gohan {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 400px;
+}
+
+div {
+    display: inline-block;
+    margin: 110px 110px 0 110px;
+}
