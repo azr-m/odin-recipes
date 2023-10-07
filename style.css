@@ -28,19 +28,11 @@ h3 {
     text-align: center;
 }
 
-#macaroni-img {
-    height: 300px;
-    width: auto;
-}
-
-#enchilada-img {
-    height: 300px;
-    width: auto;
-}
-
+#macaroni-img,
+#enchilada-img,
 #mochi-img {
-    height: auto;
-    width: 330px;
+    height: 300px;
+    width: auto;
 }
 
 p,
@@ -59,12 +51,18 @@ ol {
 
 #furikake-gohan {
     display: block;
-    margin: 0 auto;
     height: auto;
     width: 400px;
+    margin: auto;
+    margin-bottom: 100px;
 }
 
-div {
-    display: inline-block;
-    margin: 110px 110px 0 110px;
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.food {
+    display: flex;
+    flex-direction: column;
 }
